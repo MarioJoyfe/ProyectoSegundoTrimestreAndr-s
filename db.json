@@ -42,7 +42,13 @@
       "id": "520b",
       "title": "asd",
       "date": "2026-03-06",
-      "capacity": 3
+      "capacity": 4
+    },
+    {
+      "id": "ba07",
+      "title": "fsdfds",
+      "date": "2026-03-07",
+      "capacity": 6
     }
   ],
   "reservations": [
@@ -137,11 +143,6 @@
       "eventId": "520b"
     },
     {
-      "id": "1504",
-      "userId": "d067",
-      "eventId": "520b"
-    },
-    {
       "id": "8919",
       "userId": "2",
       "eventId": "520b"
@@ -155,6 +156,11 @@
       "id": "6060",
       "userId": "8f58",
       "eventId": "520b"
+    },
+    {
+      "id": "4a60",
+      "userId": "1",
+      "eventId": "ba07"
     }
   ]
 }
