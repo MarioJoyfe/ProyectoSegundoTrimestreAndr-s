@@ -23,6 +23,12 @@
       "email": "1@gmail.com",
       "password": "1",
       "role": "user"
+    },
+    {
+      "id": "86cd",
+      "email": "user@eventflow.com",
+      "password": "1234",
+      "role": "user"
     }
   ],
   "events": [
@@ -36,7 +42,7 @@
       "id": "520b",
       "title": "asd",
       "date": "2026-03-06",
-      "capacity": 6
+      "capacity": 3
     }
   ],
   "reservations": [
@@ -133,6 +139,21 @@
     {
       "id": "1504",
       "userId": "d067",
+      "eventId": "520b"
+    },
+    {
+      "id": "8919",
+      "userId": "2",
+      "eventId": "520b"
+    },
+    {
+      "id": "4654",
+      "userId": "2",
+      "eventId": "520b"
+    },
+    {
+      "id": "6060",
+      "userId": "8f58",
       "eventId": "520b"
     }
   ]
