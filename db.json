@@ -11,6 +11,18 @@
       "email": "user@eventflow.com",
       "password": "1234",
       "role": "user"
+    },
+    {
+      "id": "d067",
+      "email": "hola@gmail.com",
+      "password": "1",
+      "role": "user"
+    },
+    {
+      "id": "8f58",
+      "email": "1@gmail.com",
+      "password": "1",
+      "role": "user"
     }
   ],
   "events": [
@@ -18,7 +30,110 @@
       "id": "4f59",
       "title": "atl",
       "date": "2026-02-27",
-      "capacity": 3
+      "capacity": 0
+    },
+    {
+      "id": "520b",
+      "title": "asd",
+      "date": "2026-03-06",
+      "capacity": 6
+    }
+  ],
+  "reservations": [
+    {
+      "id": "92ca",
+      "userId": "2",
+      "eventId": "4f59"
+    },
+    {
+      "id": "81ba",
+      "userId": "2",
+      "eventId": "520b"
+    },
+    {
+      "id": "7d0e",
+      "userId": "2",
+      "eventId": "520b"
+    },
+    {
+      "id": "de2a",
+      "userId": "2",
+      "eventId": "4f59"
+    },
+    {
+      "id": "24c5",
+      "userId": "2",
+      "eventId": "4f59"
+    },
+    {
+      "id": "c1be",
+      "userId": "2",
+      "eventId": "520b"
+    },
+    {
+      "id": "0cc5",
+      "userId": "2",
+      "eventId": "520b"
+    },
+    {
+      "id": "3177",
+      "userId": "2",
+      "eventId": "520b"
+    },
+    {
+      "id": "3e6d",
+      "userId": "2",
+      "eventId": "520b"
+    },
+    {
+      "id": "29e3",
+      "userId": "1",
+      "eventId": "4f59"
+    },
+    {
+      "id": "87f1",
+      "userId": "1",
+      "eventId": "4f59"
+    },
+    {
+      "id": "3981",
+      "userId": "2",
+      "eventId": "4f59"
+    },
+    {
+      "id": "8638",
+      "userId": "2",
+      "eventId": "4f59"
+    },
+    {
+      "id": "9b3a",
+      "userId": "2",
+      "eventId": "4f59"
+    },
+    {
+      "id": "976d",
+      "userId": "2",
+      "eventId": "4f59"
+    },
+    {
+      "id": "67d1",
+      "userId": "2",
+      "eventId": "4f59"
+    },
+    {
+      "id": "9a51",
+      "userId": "1",
+      "eventId": "520b"
+    },
+    {
+      "id": "1302",
+      "userId": "1",
+      "eventId": "520b"
+    },
+    {
+      "id": "1504",
+      "userId": "d067",
+      "eventId": "520b"
     }
   ]
 }
