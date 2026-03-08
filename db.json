@@ -29,33 +29,63 @@
       "email": "user@eventflow.com",
       "password": "1234",
       "role": "user"
+    },
+    {
+      "id": "fb12",
+      "email": "test@gmail.com",
+      "password": "1",
+      "role": "user"
+    },
+    {
+      "id": "e506",
+      "email": "test2@gmail.com",
+      "password": "1",
+      "role": "user"
+    },
+    {
+      "id": "4bae",
+      "email": "test2@gmail.com",
+      "password": "1",
+      "role": "user"
+    },
+    {
+      "id": "859a",
+      "email": "test5@gmail.com",
+      "password": "1",
+      "role": "user"
+    },
+    {
+      "id": "a0d3",
+      "email": "mario.delpino@alumnojoyfe.iepgroup.es",
+      "password": "1",
+      "role": "user"
     }
   ],
   "events": [
     {
-      "id": "4f59",
-      "title": "atl",
-      "date": "2026-02-27",
-      "capacity": 0
-    },
-    {
       "id": "520b",
       "title": "asd",
       "date": "2026-03-06",
-      "capacity": 4
+      "capacity": 6
     },
     {
-      "id": "ba07",
-      "title": "fsdfds",
-      "date": "2026-03-07",
-      "capacity": 6
+      "id": "b616",
+      "title": "fdfg",
+      "date": "2026-03-14",
+      "capacity": 3
+    },
+    {
+      "id": "6646",
+      "title": "sdfsd",
+      "date": "2026-03-29",
+      "capacity": 0
     }
   ],
   "reservations": [
     {
       "id": "92ca",
       "userId": "2",
-      "eventId": "4f59"
+      "eventId": null
     },
     {
       "id": "81ba",
@@ -70,12 +100,12 @@
     {
       "id": "de2a",
       "userId": "2",
-      "eventId": "4f59"
+      "eventId": null
     },
     {
       "id": "24c5",
       "userId": "2",
-      "eventId": "4f59"
+      "eventId": null
     },
     {
       "id": "c1be",
@@ -100,37 +130,37 @@
     {
       "id": "29e3",
       "userId": "1",
-      "eventId": "4f59"
+      "eventId": null
     },
     {
       "id": "87f1",
       "userId": "1",
-      "eventId": "4f59"
+      "eventId": null
     },
     {
       "id": "3981",
       "userId": "2",
-      "eventId": "4f59"
+      "eventId": null
     },
     {
       "id": "8638",
       "userId": "2",
-      "eventId": "4f59"
+      "eventId": null
     },
     {
       "id": "9b3a",
       "userId": "2",
-      "eventId": "4f59"
+      "eventId": null
     },
     {
       "id": "976d",
       "userId": "2",
-      "eventId": "4f59"
+      "eventId": null
     },
     {
       "id": "67d1",
       "userId": "2",
-      "eventId": "4f59"
+      "eventId": null
     },
     {
       "id": "9a51",
@@ -160,7 +190,92 @@
     {
       "id": "4a60",
       "userId": "1",
-      "eventId": "ba07"
+      "eventId": null
+    },
+    {
+      "id": "df67",
+      "userId": "2",
+      "eventId": "b616"
+    },
+    {
+      "id": "4e07",
+      "userId": "2",
+      "eventId": "520b"
+    },
+    {
+      "id": "6b13",
+      "userId": "2",
+      "eventId": "520b"
+    },
+    {
+      "id": "f722",
+      "userId": "2",
+      "eventId": "b616"
+    },
+    {
+      "id": "e41e",
+      "userId": "d067",
+      "eventId": "b616"
+    },
+    {
+      "id": "f2c9",
+      "userId": "8474",
+      "eventId": "520b"
+    },
+    {
+      "id": "c3eb",
+      "userId": "8474",
+      "eventId": "b616"
+    },
+    {
+      "id": "d3a7",
+      "userId": "8474",
+      "eventId": "b616"
+    },
+    {
+      "id": "f0a3",
+      "userId": "8474",
+      "eventId": "520b"
+    },
+    {
+      "id": "b686",
+      "userId": "8474",
+      "eventId": "520b"
+    },
+    {
+      "id": "7ea6",
+      "userId": "fb12",
+      "eventId": "520b"
+    },
+    {
+      "id": "5df8",
+      "userId": "fb12",
+      "eventId": "6646"
+    },
+    {
+      "id": "8ffc",
+      "userId": "8474",
+      "eventId": "520b"
+    },
+    {
+      "id": "e262",
+      "userId": "a0d3",
+      "eventId": "520b"
+    },
+    {
+      "id": "995c",
+      "userId": "a0d3",
+      "eventId": "6646"
+    },
+    {
+      "id": "8b12",
+      "userId": "e506",
+      "eventId": "b616"
+    },
+    {
+      "id": "9cee",
+      "userId": "e506",
+      "eventId": "520b"
     }
   ]
 }

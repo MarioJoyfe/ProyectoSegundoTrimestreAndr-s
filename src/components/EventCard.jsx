@@ -7,7 +7,7 @@ import Swal from "sweetalert2";
 const API_URL = "http://localhost:3000";
 
 export default function EventCard({ event, refreshEvents = () => {} }) {
-  if (!event) return null; // 🔹 Protección extra
+  if (!event) return null;
 
   const { user } = useContext(AuthContext);
   const [alreadyReserved, setAlreadyReserved] = useState(false);
@@ -20,7 +20,7 @@ export default function EventCard({ event, refreshEvents = () => {} }) {
       }
 
       const response = await fetch(
-        `${API_URL}/reservations?userId=${String(user.id)}&eventId=${String(event.id)}`
+        `${API_URL}/reservations?userId=${user.id}&eventId=${event.id}`
       );
 
       const data = await response.json();
@@ -50,8 +50,8 @@ export default function EventCard({ event, refreshEvents = () => {} }) {
 
     try {
       await createReservation({
-        userId: String(user.id),
-        eventId: String(event.id)
+        userId: user.id,
+        eventId: event.id
       });
 
       await updateEventCapacity({
@@ -63,7 +63,7 @@ export default function EventCard({ event, refreshEvents = () => {} }) {
 
       Swal.fire("Reserva confirmada", "", "success");
 
-      refreshEvents(); // 🔹 Actualiza Home sin recargar
+      refreshEvents();
 
     } catch (error) {
       Swal.fire("Error al reservar", "", "error");
